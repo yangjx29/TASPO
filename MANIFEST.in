@@ -11,7 +11,6 @@ recursive-include examples *.py *.sh *.yaml *.yml *.md
 recursive-include scripts *.py *.sh
 recursive-include docs *.md *.rst
 recursive-include docs/assets *.svg *.png
-include docs/paper.pdf
 recursive-include tests/taspo *.py
 prune build
 prune dist
