@@ -1,8 +1,8 @@
 # Benchmark results
 
-[Back to README](../README.md) · [Paper](paper.pdf)
+[Back to README](../README.md)
 
-The tables below summarize Table 1 of the paper. All values are percentages; higher is better. The paper contains the task-family and dataset-level breakdowns.
+The tables below summarize the benchmark results. All values are percentages; higher is better.
 
 ## Qwen2.5-3B-Instruct
 
@@ -42,7 +42,7 @@ The tables below summarize Table 1 of the paper. All values are percentages; hig
 | OPID | 58.9 | 40.4 | **79.6** | 64.8 |
 | **TASPO** | **69.6** | **46.6** | 77.6 | **67.1** |
 
-Bold values mark the best reported result in each column. A dash means the result is not reported in the paper's main table.
+Bold values mark the best reported result in each column. A dash means the corresponding result is not available in this comparison.
 
 ## Evaluation metrics
 
@@ -50,4 +50,4 @@ Bold values mark the best reported result in each column. A dash means the resul
 - **Search-QA:** macro-average of exact-match accuracy on NQ, TriviaQA, PopQA, HotpotQA, 2WikiMultiHopQA, MuSiQue, and Bamboogle. Training uses NQ and HotpotQA.
 - **WebShop:** normalized task score and success rate on 128 fixed tasks.
 
-Full experimental settings and result sources are described in Section 4 and Appendix C of the [paper](paper.pdf). For checkpoint evaluation commands, see the [training guide](usage.md#evaluate).
+For checkpoint evaluation commands, see the [training guide](usage.md#evaluate).

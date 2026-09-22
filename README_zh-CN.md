@@ -2,10 +2,9 @@
   <img src="docs/assets/taspo.svg" alt="TASPO" width="880">
 </p>
 
-<h2 align="center">Reconciling Process Supervision with<br>Outcome-Based Credit in Agentic Policy Optimization</h2>
+<h2 align="center">TASPO：匿名评审代码</h2>
 
 <p align="center">
-  <a href="docs/paper.pdf"><b>论文</b></a> &nbsp; · &nbsp;
   <a href="#实验结果"><b>实验结果</b></a> &nbsp; · &nbsp;
   <a href="#快速开始"><b>快速开始</b></a> &nbsp; · &nbsp;
   <a href="docs/usage.md"><b>使用文档</b></a> &nbsp; · &nbsp;
@@ -39,7 +38,7 @@
 | Qwen3-1.7B-Instruct | GRPO | 40.1 | 43.6 | 43.0 |
 | | **TASPO** | **69.6** | **46.6** | **67.1** |
 
-数据来自[论文](docs/paper.pdf) Table 1，单位为百分比。ALFWorld 为任务类别宏平均成功率，Search-QA 为数据集宏平均精确匹配准确率，WebShop 为成功率。更多基线和 WebShop 分数见[完整结果](docs/results.md)。
+结果单位为百分比。ALFWorld 为任务类别宏平均成功率，Search-QA 为数据集宏平均精确匹配准确率，WebShop 为成功率。更多基线和 WebShop 分数见[完整结果](docs/results.md)。
 
 ## 快速开始
 
@@ -82,12 +81,6 @@ TASPO 的核心实现位于 [`agent_system/taspo/`](agent_system/taspo)：`analy
 ```bash
 bash scripts/taspo/run_unit_tests.sh
 ```
-
-## 引用
-
-如果 TASPO 对你的研究有帮助，请引用我们的论文：
-
-> **Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization.** [论文](docs/paper.pdf)
 
 ## 致谢与许可证
 

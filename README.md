@@ -2,10 +2,9 @@
   <img src="docs/assets/taspo.svg" alt="TASPO — Process supervision, grounded in outcomes." width="880">
 </p>
 
-<h2 align="center">Reconciling Process Supervision with<br>Outcome-Based Credit in Agentic Policy Optimization</h2>
+<h2 align="center">TASPO: Anonymous Code for Review</h2>
 
 <p align="center">
-  <a href="docs/paper.pdf"><b>Paper</b></a> &nbsp; · &nbsp;
   <a href="#results"><b>Results</b></a> &nbsp; · &nbsp;
   <a href="#getting-started"><b>Getting Started</b></a> &nbsp; · &nbsp;
   <a href="docs/usage.md"><b>Documentation</b></a> &nbsp; · &nbsp;
@@ -41,7 +40,7 @@ TASPO improves over GRPO on **ALFWorld, Search-QA, and WebShop** across all thre
 | Qwen3-1.7B-Instruct | GRPO | 40.1 | 43.6 | 43.0 |
 | | **TASPO** | **69.6** | **46.6** | **67.1** |
 
-Results from Table 1 of our [paper](docs/paper.pdf), in percent. ALFWorld reports macro-averaged task-family success, Search-QA reports macro-averaged exact-match accuracy, and WebShop reports success rate. See [full benchmark results](docs/results.md) for additional baselines and WebShop scores.
+All results are percentages. ALFWorld reports macro-averaged task-family success, Search-QA reports macro-averaged exact-match accuracy, and WebShop reports success rate. See [full benchmark results](docs/results.md) for additional baselines and WebShop scores.
 
 ## Getting started
 
@@ -109,7 +108,7 @@ bash examples/taspo/eval_checkpoint.sh \
   alfworld /path/to/global_step_150
 ```
 
-Evaluation does not call the analyzer. For the benchmark settings and metrics used in the paper, see [results and evaluation](docs/results.md).
+Evaluation does not call the analyzer. For benchmark settings and metrics, see [results and evaluation](docs/results.md).
 
 ## Code
 
@@ -130,12 +129,6 @@ bash scripts/taspo/run_unit_tests.sh
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for bug reports and changes.
-
-## Citation
-
-If you use TASPO in your research, please cite our paper:
-
-> **Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization.** [Paper](docs/paper.pdf)
 
 ## Acknowledgments
 
