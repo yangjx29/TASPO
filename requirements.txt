@@ -1,0 +1,8 @@
+# Authoritative development dependencies for TASPO.
+# GPU-specific packages such as flash-attn should be installed after PyTorch.
+-e .[vllm,test]
+gymnasium==0.29.1
+stable-baselines3==2.6.0
+alfworld==0.4.2
+uvicorn
+fastapi

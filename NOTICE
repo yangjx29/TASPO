@@ -1,0 +1,11 @@
+TASPO includes and modifies code from the following upstream projects:
+
+- veRL, Copyright 2023-2024 Bytedance Ltd. and/or its affiliates, Apache-2.0.
+- verl-agent (GiGPO), Copyright 2025 Nanyang Technological University (NTU), Singapore and contributors, Apache-2.0.
+- SDAR by ZJU-REAL, Apache-2.0.
+- SkyRL Gym by NovaSky-AI, Apache-2.0.
+- ALFWorld, Copyright 2020 Mohit Shridhar and others, MIT. Its license is retained at `agent_system/environments/env_package/alfworld/LICENSE`.
+- WebShop, Copyright 2023 Princeton Natural Language Processing, MIT. Its license is retained at `agent_system/environments/env_package/webshop/webshop/LICENSE.md`.
+
+The repository-level `LICENSE` contains Apache License 2.0. Third-party
+components retain their original copyright notices and license terms.

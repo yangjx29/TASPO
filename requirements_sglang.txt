@@ -1,0 +1,5 @@
+# SGLang backend dependencies aligned with `setup.py`.
+-e .[sglang,test]
+torchvision==0.23.0
+torch-memory-saver>=0.0.5
+huggingface-hub

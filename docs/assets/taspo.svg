@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="300" viewBox="0 0 1320 300" role="img" aria-labelledby="title desc">
+  <title id="title">TASPO</title>
+  <desc id="desc">Process supervision, grounded in outcomes. A trajectory mark connects evidence to action-level credit.</desc>
+  <rect width="1320" height="300" rx="12" fill="#f7f9f8"/>
+  <g transform="translate(294 51)">
+    <path d="M0 33H51Q69 33 79 51L98 82Q108 99 128 99H172" fill="none" stroke="#aecfc4" stroke-width="9" stroke-linecap="round"/>
+    <path d="M0 99H172" fill="none" stroke="#1c705b" stroke-width="11" stroke-linecap="round"/>
+    <path d="M0 165H51Q69 165 79 147L98 116Q108 99 128 99H172" fill="none" stroke="#aecfc4" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="4" cy="33" r="11" fill="#f7f9f8" stroke="#aecfc4" stroke-width="5"/>
+    <circle cx="4" cy="99" r="12" fill="#1c705b"/>
+    <circle cx="4" cy="165" r="11" fill="#f7f9f8" stroke="#aecfc4" stroke-width="5"/>
+    <circle cx="171" cy="99" r="14" fill="#e49a3d" stroke="#f7f9f8" stroke-width="5"/>
+  </g>
+  <text x="520" y="166" fill="#18372f" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="700" letter-spacing="-5">TASPO</text>
+  <text x="524" y="212" fill="#566760" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="0.25">Process supervision, grounded in outcomes.</text>
+</svg>

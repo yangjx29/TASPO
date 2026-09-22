@@ -1,0 +1,31 @@
+include LICENSE
+include NOTICE
+include README.md
+include README_zh-CN.md
+include CONTRIBUTING.md
+include requirements*.txt
+include environment.yml
+recursive-include verl *.py *.yaml *.yml
+recursive-include agent_system *.py *.yaml *.yml *.json *.jsonl *.txt *.csv *.tsv *.xml *.pddl *.tw-pddl *.jinja *.html *.css *.js LICENSE*
+recursive-include examples *.py *.sh *.yaml *.yml *.md
+recursive-include scripts *.py *.sh
+recursive-include docs *.md *.rst
+recursive-include docs/assets *.svg *.png
+include docs/paper.pdf
+recursive-include tests/taspo *.py
+prune build
+prune dist
+prune outputs
+prune checkpoints
+prune logs
+prune wandb
+prune .git
+prune .claude
+prune .ruff_cache
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude *.pt
+global-exclude *.ckpt
+global-exclude *.wandb
+global-exclude *.log

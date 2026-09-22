@@ -1,0 +1,15 @@
+name: taspo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip>=24
+  - setuptools>=77
+  - wheel
+  - pip:
+      - -e .[vllm,test]
+      - gymnasium==0.29.1
+      - stable-baselines3==2.6.0
+      - alfworld==0.4.2
+      - uvicorn
+      - fastapi
